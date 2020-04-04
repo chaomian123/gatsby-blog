@@ -4,9 +4,8 @@ import Layout from '../component/layout';
 export default () => {
   return (
     <Layout>
-      首页&nbsp;
-      <Link to="/about/">关于我</Link>
-      &nbsp;
+      <Link to="/">首页</Link>
+      &nbsp; 关于我 &nbsp;
       <Link to="/post/">归档</Link>
     </Layout>
   );
