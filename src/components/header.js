@@ -24,10 +24,10 @@ const Header = () => (
         background: #f8f8f8;
         `}
         >
-          <NavLink to="/">首页</NavLink>
+          <NavLink to="./">首页</NavLink>
           {/* <NavLink to="/about">关于我</NavLink> */}
-          <NavLink to="/list">归档</NavLink>
-          <NavLink to="/contact">联系我</NavLink>
+          <NavLink to="./list">归档</NavLink>
+          <NavLink to="./contact">联系我</NavLink>
         </div>
         <div css={css`
           background: url("https://static.tumblr.com/c2ca24d36168f0aa4f089b62c2f9b757/negrna7/bpqojxain/tumblr_static_33qfyglfxg6ckogc0o84ogko0.png");
