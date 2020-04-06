@@ -22,7 +22,25 @@ const Layout = ({ children }) => {
    <Headers/>
     <main
       css={css`
-       
+       width: '800px';
+       padding-top: 60px;
+       margin: 0 12.5% 0 12.5%;
+       & h2 {
+        font-family: 'Merriweather', sans-serif;
+        font-size: 55px;
+        line-height: 80px;
+        color: #5d5c5c;
+        font-weight: 700;
+        font-style: normal;
+       }
+       & p {
+        font-family: 'Merriweather', sans-serif;
+        font-size: 16px;
+        line-height: 32px;
+        color: #5d5c5c;
+        font-weight: 400;
+        margin-bottom: 25px
+       }
       `}
     >{children}</main>
   </>

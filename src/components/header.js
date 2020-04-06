@@ -25,14 +25,16 @@ const Header = () => (
         `}
         >
           <NavLink to="/">首页</NavLink>
-          <NavLink to="/about">关于我</NavLink>
-          <NavLink to="/post">归档</NavLink>
+          {/* <NavLink to="/about">关于我</NavLink> */}
+          <NavLink to="/list">归档</NavLink>
+          <NavLink to="/contact">联系我</NavLink>
         </div>
         <div css={css`
           background: url("https://static.tumblr.com/c2ca24d36168f0aa4f089b62c2f9b757/negrna7/bpqojxain/tumblr_static_33qfyglfxg6ckogc0o84ogko0.png");
           background-size: cover;
-          height: 440px;
+          min-height: 440px;
           background-position-y: -155px;
+          background-repeat: space;
         `}>
       
           <div css={css`
@@ -59,7 +61,7 @@ const Header = () => (
               color: #fff;
               text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
               letter-spacing: 0px;
-            `}>跑向那干燥的风的尽头，跑向比那永远不会落山的太阳更远的地方</h6>
+            `}>如果有风，我心里的单词卡就会轻轻地翻动</h6>
           </div>
         </div>   
     </header>   
