@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/list.js"],"names":[],"mappings":"2FAAA,6CAGe,qBACb,OACE,YAAC,IAAD","file":"component---src-pages-list-js-c4f9852842b7158ff189.js","sourcesContent":["import React from 'react';\n\nimport Layout from '../components/layout';\nexport default () => {\n  return (\n    <Layout>\n     44\n    </Layout>\n  );\n};\n"],"sourceRoot":""}
