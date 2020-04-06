@@ -22,9 +22,10 @@ const Layout = ({ children }) => {
    <Headers/>
     <main
       css={css`
-       width: '800px';
+       width: 800px;
        padding-top: 60px;
-       margin: 0 12.5% 0 12.5%;
+       margin: 0 auto;
+       background-size: initial;
        & h2 {
         font-family: 'Merriweather', sans-serif;
         font-size: 55px;

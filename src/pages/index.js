@@ -1,6 +1,6 @@
 import React from 'react';
 import usePosts from '../hooks/usePosts';
-
+import PostPreview from '../components/post-preview';
 
 import Layout from '../components/layout';
 export default () => {
@@ -8,7 +8,7 @@ export default () => {
   return (
     <Layout>
       {posts.map(post => (
-        <pre>{JSON.stringify(post, null, 2)}</pre>
+        <PostPreview key={post.slug} post={post}/>
       ))}
     </Layout>
   );
